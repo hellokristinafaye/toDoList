@@ -10,3 +10,7 @@
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
+.check-circle {
+    color: #f36942;
+}
+/* wtf internet?? the last few changes haven't reflected for git?? so adding this comment so we can commit, ugh.  */
