@@ -26,6 +26,12 @@
     font-size: 36px;
     /* also used Materialize docs */
 }   
+.todo-app h2 {
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 
 
