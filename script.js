@@ -8,8 +8,9 @@ function addTask() {
         alert("You must write something!");
     }
     else {
-        let li = documment.createElement("li");
+        let li = document.createElement("li");
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
+
     }
 }
