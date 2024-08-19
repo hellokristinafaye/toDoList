@@ -69,23 +69,23 @@ ul li {
     cursor: pointer;
     position: relative;
 }
-ul li span.material-icons {
+ul li::before {
     content: "";
     position: absolute;
-    /* height: 70px; */
-    /* width: 28px; */
-    /* border-radius: 50%;
-    background-image: ; */
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url('images/unchecked.png');
     background-size: cover;
     background-position: center;
-    top: 6px;
-    left: 10px;
-    color: #edeef0;
-    font-size: 32px;
+    top: 12px;
+    left: 8px;
 }
 ul li.checked {
     color: #555;
     text-decoration: line-through;
 }
+ul li.checked::before {
 
+}
 
