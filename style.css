@@ -25,6 +25,8 @@
     color: #f36942;
     font-size: 36px;
     /* also used Materialize docs */
+    width: 30px;
+    margin-left: 10px;
 }   
 .todo-app h2 {
     color: #002765;
