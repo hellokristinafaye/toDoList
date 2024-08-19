@@ -67,7 +67,21 @@ ul li {
     padding: 12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
-    
+    position: relative;
+}
+ul li span.material-icons {
+    content: "";
+    position: absolute;
+    /* height: 70px; */
+    /* width: 28px; */
+    /* border-radius: 50%;
+    background-image: ; */
+    background-size: cover;
+    background-position: center;
+    top: 6px;
+    left: 10px;
+    color: #edeef0;
+    font-size: 32px;
 }
 
 
