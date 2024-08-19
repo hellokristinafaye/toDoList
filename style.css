@@ -83,6 +83,9 @@ ul li span.material-icons {
     color: #edeef0;
     font-size: 32px;
 }
-
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
 
 
