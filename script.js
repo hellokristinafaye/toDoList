@@ -1,4 +1,3 @@
-// console.log("Hello There!");
 
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container"); 
@@ -26,7 +25,7 @@ inputBox.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
         // Cancel the default action, if needed
         event.preventDefault();
-        // Trigger the button element with a click
+        // Trigger the button element like a click
         document.getElementById("myBtn").click();
     }
 });
